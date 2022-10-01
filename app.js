@@ -149,7 +149,7 @@ function clickHandler() {
     } else {
       var [counter, nextDate] = getNextPalindromeDate(date);
       showOutput.innerText = `The Next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} , You missed it by ${counter} days!`;
-      showOutput.style.color = "blue";
+      showOutput.style.color = "black";
     }
   }
 }
